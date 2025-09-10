@@ -5,6 +5,12 @@
 [![Coverage](https://img.shields.io/badge/coverage-15%25-green)](https://github.com/your-org/your-repo/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+---
+
+> **Confidentiality & Independence Notice**
+>
+> This repository is a brand new, from-scratch version inspired by a commercial project originally developed for one of my clients. The original system was built with a different technology stack. I have explicit authorization to use only the core idea of the system; all other aspects—such as the technology stack, methods, and designs—are entirely different and open source. For confidentiality and security reasons, this project does not share any technical or technological similarity with the original, nor does it reveal any information about the client’s proprietary solution. This is an independent adaptation using a different stack, fully respecting all confidentiality agreements and client security requirements.
+
 **A robust, scalable, and secure platform designed to automate the lifecycle of legal contract creation using a microservices architecture.**
 
 

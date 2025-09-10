@@ -1,0 +1,13 @@
+name: Deploy (Template Only)
+
+on:
+  workflow_dispatch:
+    # This workflow is a placeholder and does not perform any deployment.
+    # Remove or update this file when you are ready to implement deployment steps.
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: No-op
+        run: echo "This is a deploy workflow template. No deployment is performed."
