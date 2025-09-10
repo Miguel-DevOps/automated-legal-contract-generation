@@ -2,8 +2,8 @@
 
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/your-org/your-repo/actions)
-[![Coverage](https://img.shields.io/badge/coverage-90%25-green)](https://github.com/your-org/your-repo/actions)
-[![License](https://img.shields.io/badge/license)](LICENSE)
+[![Coverage](https://img.shields.io/badge/coverage-15%25-green)](https://github.com/your-org/your-repo/actions)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **A robust, scalable, and secure platform designed to automate the lifecycle of legal contract creation using a microservices architecture.**
 
