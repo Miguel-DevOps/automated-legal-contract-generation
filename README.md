@@ -3,29 +3,7 @@
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/your-org/your-repo/actions)
 [![Coverage](https://img.shields.io/badge/coverage-90%25-green)](https://github.com/your-org/your-repo/actions)
-[![License](https://img.shields.io/badge/license-### Phase 4: Integration & Finalization 🚧
-- [x] Establish communication between services (e.g., using RabbitMQ for events or simple HTTP calls for synchronous needs).
-- [x] Implement observability: add a /metrics endpoint to all NestJS services for Prometheus to scrape.
-- [x] Create a basic Grafana dashboard to visualize key service metrics (e.g., request latency, error rates).
-- [ ] Write comprehensive unit and integration tests for all critical business logic.
-- [ ] Perform a final security review (check for common vulnerabilities like SQL injection, XSS).
-- [ ] Write documentation for API endpoints (e.g., using Swagger in NestJS).
-
-### Phase 5: Advanced Optimization & Scalability 🎯
-
-> **⚠️ Important:** These are advanced optimizations that should only be implemented after the core system is stable and functioning. The current unified Dockerfile approach is excellent for development and initial deployment.
-
-- [ ] **Independent Dockerfiles:** Refactor from unified Dockerfile to service-specific Dockerfiles for better isolation, independent scaling, and optimized build caches per service.
-  - **Why later?** Current unified approach provides consistency and maintainability during development
-  - **When to do?** When services have different optimization needs or deployment patterns
-  - **Benefits:** Smaller images, faster builds, service-specific optimizations, independent deployment cycles
-
-- [ ] **Multi-stage optimization:** Implement advanced multi-stage builds with service-specific optimizations (e.g., different base images for Node.js services vs Next.js frontend).
-- [ ] **Container image optimization:** Minimize image sizes using Alpine variants, .dockerignore files, and layer optimization techniques.
-- [ ] **Kubernetes manifests:** Create K8s deployment files for production container orchestration and auto-scaling.
-- [ ] **Advanced monitoring:** Implement distributed tracing (e.g., Jaeger) and service mesh (e.g., Istio) for microservices observability.
-- [ ] **Performance optimization:** Add Redis caching layers, database connection pooling, and API response caching strategies.
-- [ ] **CI/CD pipeline:** Set up GitHub Actions for automated testing, security scanning, and multi-environment deployments.e.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license)](LICENSE)
 
 **A robust, scalable, and secure platform designed to automate the lifecycle of legal contract creation using a microservices architecture.**
 
@@ -363,6 +341,22 @@ This checklist outlines the detailed tasks required to build this project from t
 - [ ] Write comprehensive unit and integration tests for all critical business logic.
 - [ ] Perform a final security review (check for common vulnerabilities like SQL injection, XSS).
 - [ ] Write documentation for API endpoints (e.g., using Swagger in NestJS).
+
+### Phase 5: Advanced Optimization & Scalability 🎯
+
+> **⚠️ Important:** These are advanced optimizations that should only be implemented after the core system is stable and functioning. The current unified Dockerfile approach is excellent for development and initial deployment.
+
+- [ ] **Independent Dockerfiles:** Refactor from unified Dockerfile to service-specific Dockerfiles for better isolation, independent scaling, and optimized build caches per service.
+  - **Why later?** Current unified approach provides consistency and maintainability during development
+  - **When to do?** When services have different optimization needs or deployment patterns
+  - **Benefits:** Smaller images, faster builds, service-specific optimizations, independent deployment cycles
+
+- [ ] **Multi-stage optimization:** Implement advanced multi-stage builds with service-specific optimizations (e.g., different base images for Node.js services vs Next.js frontend).
+- [ ] **Container image optimization:** Minimize image sizes using Alpine variants, .dockerignore files, and layer optimization techniques.
+- [ ] **Kubernetes manifests:** Create K8s deployment files for production container orchestration and auto-scaling.
+- [ ] **Advanced monitoring:** Implement distributed tracing (e.g., Jaeger) and service mesh (e.g., Istio) for microservices observability.
+- [ ] **Performance optimization:** Add Redis caching layers, database connection pooling, and API response caching strategies.
+- [ ] **CI/CD pipeline:** Set up GitHub Actions for automated testing, security scanning, and multi-environment deployments.e.svg
 
 ---
 
