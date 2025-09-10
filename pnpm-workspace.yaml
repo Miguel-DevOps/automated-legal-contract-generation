@@ -1,0 +1,5 @@
+packages:
+  # Todas las aplicaciones que son parte del proyecto
+  - 'apps/*'
+  # Todos los paquetes compartidos
+  - 'packages/*'

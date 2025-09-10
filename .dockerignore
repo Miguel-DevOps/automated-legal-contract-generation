@@ -1,0 +1,33 @@
+# Git
+.git
+.github
+
+# Dependencias de Node
+node_modules
+.pnpm-store
+
+# Logs y archivos de debug
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entornos y configuraciones locales
+.env
+.env.*
+!/.env.example
+
+# Metadatos del SO
+.DS_Store
+Thumbs.db
+
+# Configuraciones del editor
+.vscode/
+.idea/
+
+# Otros
+dist/
+build/
+coverage/
